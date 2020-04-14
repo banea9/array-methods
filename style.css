@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h1 {
+  margin: 40px;
+  font-size: 30px;
+}
+.container {
+  display: flex;
+  width: 70%;
+  padding: 30px 10px;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  align-items: center;
+  border-right: 2px solid #000;
+}
+
+aside button {
+  background-color: #2f80ed;
+  width: 80%;
+  height: auto;
+  padding:15px 10px;
+  font-size: 1.1em;
+  border-radius: 10px;
+  outline: none;
+  margin:10px 0;
+  font-weight: 800;
+  color: #fff;
+}
+aside button:hover {
+  cursor: pointer;
+}
+main {
+  width: 65%;
+  padding: 0 10px 20px 20px;
+  
+}
+main h2 {
+  width: 100%;
+  border-bottom: 2px solid #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+main h3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4px solid #000;
+  color: #fff;
+}
+.person {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
